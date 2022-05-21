@@ -1,0 +1,5 @@
+print ( "Olá!")
+print ("Quer saber seu peso ideal?")
+altura = float ( input ("Digite sua altura (não use virgula, apenas ponto): "))
+print (f"Para homens, o peso ideal é: {int (72.7 * altura) - 58}")
+print (f"Para mulheres, o peso ideal é: {int (62.1 * altura) - 44.7}")
