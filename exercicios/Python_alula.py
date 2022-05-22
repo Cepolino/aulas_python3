@@ -7,7 +7,7 @@ numero_secreto = random.randrange(1,100)
 total_de_tentativas = 0
 pontos = 1000
 
-
+print (numero_secreto)
 print ("Escolha o nivel de dificuldade")
 print ("(1) Facil / (2) Medio / (3) Dificil")
 nivel = int(input ("Digite o nivel: "))
