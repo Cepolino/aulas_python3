@@ -127,3 +127,4 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+exercicios/L2/l2_ex15.py
