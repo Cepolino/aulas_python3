@@ -5,7 +5,7 @@ resposta_dict = resposta.json()
 dados = resposta_dict["dados"]
 lista = []
 for i in dados:
-    lista.append(f"{i['siglaOrgao']}, {i['data']},\n {i['descricao']}")
+    lista.append(f"{i['siglaOrgao']},\n {i['data']},\n {i['descricao']}")
 
 lista.sort()
 print("\n".join(lista))
