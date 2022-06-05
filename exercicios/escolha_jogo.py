@@ -14,6 +14,6 @@ def escolha_jogo():
     elif jogo==2:
         adivinhacao.jogar()
 
-if __name__==__main__:
+if __name__=="__main__":
     escolha_jogo()
     
