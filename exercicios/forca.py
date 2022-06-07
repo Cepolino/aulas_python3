@@ -3,7 +3,7 @@ import random
 def jogar():
 
     mensagem_de_abertura()
-    palavra_secreta = carrega_palavra_secreta()
+    palavra_secreta = carrega_palavra_secreta('C:/Users/Manoel/Documents/workspace/aulas_python3/exercicios/ferramentas.txt')
     letras_acertadas = carregar_letras_acertadas(palavra_secreta)
 
 
@@ -43,8 +43,8 @@ def mensagem_de_abertura():
     print ('*******Bem vindo ao jogo da Forca********')
     print ('*****************************************')
 
-def carrega_palavra_secreta():
-    arquivo = open("C:/Users/Manoel/Documents/workspace/aulas_python3/exercicios/frutas.txt", "r")
+def carrega_palavra_secreta(nome_do_arquivo):
+    arquivo = open(nome_do_arquivo, "r")
     palavras = []
 
     for linha in arquivo:
