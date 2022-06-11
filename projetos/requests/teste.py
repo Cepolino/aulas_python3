@@ -22,7 +22,7 @@ print ("********************")
 print (dados)
 print ("********************")
 #*******deletar dados
-resposta = requests.delete("https://aulaspython-aceb0-default-rtdb.firebaseio.com/-Lila.json")
-print(resposta)
-print(resposta.json)
+#resposta = requests.delete("https://aulaspython-aceb0-default-rtdb.firebaseio.com/-Lila.json")
+#print(resposta)
+#print(resposta.json)
 

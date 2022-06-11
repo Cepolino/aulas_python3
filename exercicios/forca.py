@@ -3,7 +3,7 @@ import random
 def jogar():
 
     mensagem_de_abertura()
-    palavra_secreta = carrega_palavra_secreta('C:/Users/Manoel/Documents/workspace/aulas_python3/exercicios/ferramentas.txt')
+    palavra_secreta = carrega_palavra_secreta('exercicios/ferramentas.txt')
     letras_acertadas = carregar_letras_acertadas(palavra_secreta)
 
 
